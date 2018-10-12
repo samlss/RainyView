@@ -5,7 +5,7 @@ A rainy rainy rainy view. ( ˘•灬•˘ )
 
 ### [More](https://github.com/samlss/FunnyViews)
 
-### [中文](https://blog.csdn.net/Samlss/article/details/83017672)
+### [中文](https://github.com/samlss/RainyView/wiki/Chinese_Document)
 
 <br/>
 
