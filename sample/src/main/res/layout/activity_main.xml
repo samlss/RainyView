@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#17222B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <me.samlss.view.RainyView
+       android:id="@+id/rv"
+       android:layout_centerInParent="true"
+       android:layout_width="200dp"
+       android:layout_height="200dp" />
+
+   <LinearLayout
+       android:layout_below="@id/rv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="onStart"
+          android:text="Start"
+          style="@style/Widget.AppCompat.Button.Colored"
+          android:textAllCaps="false" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:onClick="onStop"
+          android:text="Stop"
+          style="@style/Widget.AppCompat.Button.Colored"
+          android:textAllCaps="false" />
+   </LinearLayout>
+
+   <TextView
+       android:gravity="center"
+       android:drawablePadding="5dp"
+       android:drawableLeft="@drawable/ic_samlss_head_photo"
+       android:layout_marginBottom="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:textColor="@android:color/white"
+       android:text="Created by Samlss"
+       android:textSize="16sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</RelativeLayout>

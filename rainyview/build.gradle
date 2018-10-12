@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+}
+
+
+publish {
+    userOrg = 'samlss'
+    groupId = 'me.samlss'
+    artifactId = 'rainyview'
+    publishVersion = '1.0.0'
+    desc = 'A rainy loading view.'
+    website = 'https://github.com/samlss/RainyView'
+}

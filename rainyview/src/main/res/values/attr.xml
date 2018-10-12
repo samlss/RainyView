@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RainyView">
+        <!--The color of raindrop-->
+        <attr name="raindrop_color" format="color"></attr>
+
+        <!--The color of the left cloud-->
+        <attr name="left_cloud_color" format="color"></attr>
+
+        <!--The color of the right cloud-->
+        <attr name="right_cloud_color" format="color"></attr>
+
+        <!--Number of raindrops that can coexist at the same time-->
+        <attr name="raindrop_max_number" format="integer"></attr>
+
+        <!--The creation of the raindrop interval in millis-->
+        <attr name="raindrop_creation_interval" format="integer"></attr>
+
+        <!--The min length in pixel of every raindrop-->
+        <attr name="raindrop_min_length" format="integer"></attr>
+
+        <!--The max length in pixel of every raindrop-->
+        <attr name="raindrop_max_length" format="integer"></attr>
+
+        <!--The size in pixel of every raindrop-->
+        <attr name="raindrop_size" format="integer"></attr>
+
+        <!--The min speed of every raindrop-->
+        <attr name="raindrop_min_speed" format="float"></attr>
+
+        <!--The max speed of every raindrop-->
+        <attr name="raindrop_max_speed" format="float"></attr>
+
+        <!--The slope of every raindrop-->
+        <attr name="raindrop_slope" format="float"></attr>
+    </declare-styleable>
+</resources>

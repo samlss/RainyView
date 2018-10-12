@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#17222B"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_weight="5"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+
+      <me.samlss.view.RainyView
+          android:layout_marginTop="20dp"
+          android:id="@+id/fv1"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent" />
+
+      <me.samlss.view.RainyView
+          android:layout_marginTop="20dp"
+          android:id="@+id/fv2"
+          app:left_cloud_color="#B7AC8D"
+          app:right_cloud_color="#9b8f84"
+          app:raindrop_color="#9aa9bb"
+          app:raindrop_creation_interval="10"
+          app:raindrop_max_number="50"
+          app:raindrop_max_length="50"
+          app:raindrop_min_length="20"
+          app:raindrop_min_speed="1"
+          app:raindrop_max_speed="3"
+          app:raindrop_size="15"
+          app:raindrop_slope="-4"
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="onStart"
+          android:text="Start"
+          style="@style/Widget.AppCompat.Button.Colored"
+          android:textAllCaps="false" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:onClick="onStop"
+          android:text="Stop"
+          style="@style/Widget.AppCompat.Button.Colored"
+          android:textAllCaps="false" />
+   </LinearLayout>
+
+   <TextView
+       android:layout_gravity="right"
+       android:layout_weight="1"
+       android:gravity="center"
+       android:drawablePadding="5dp"
+       android:drawableLeft="@drawable/ic_samlss_head_photo"
+       android:layout_marginBottom="20dp"
+       android:layout_marginRight="20dp"
+       android:textColor="@android:color/white"
+       android:text="Created by Samlss"
+       android:textSize="16sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</LinearLayout>
