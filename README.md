@@ -1,7 +1,7 @@
 # RainyView
 [![Download](https://api.bintray.com/packages/samlss/maven/rainyview/images/download.svg)](https://bintray.com/samlss/maven/rainyview/_latestVersion)   [![Api reqeust](https://img.shields.io/badge/API-11+-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11#l11)    [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/RainyView/blob/master/LICENSE)  [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
-A rainy view.
+A rainy rainy rainy view. ( ˘•灬•˘ )
 
 ### [More](https://github.com/samlss/FunnyViews)
 
