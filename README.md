@@ -61,16 +61,16 @@ Add it in your app build.gradle at the end of repositories:
 
 #### In code
 ```java
-rainyView.setLeftCloudColor(Color.parseColor("#B7AC8D"));
-rainyView.setRightCloudColor(Color.parseColor("#9b8f84"));
-rainyView.setRainDropColor(Color.parseColor("#9aa9bb"));
-rainyView.setRainDropMaxNumber(50);
-rainyView.setRainDropMaxLength(50);
-rainyView.setRainDropMinLength(20);
-rainyView.setRainDropMaxSpeed(3);
-rainyView.setRainDropMinSpeed(1);
-rainyView.setRainDropSlope(-4);
-rainyView.setRainDropCreationInterval(10);
+rainyView.setLeftCloudColor(Color.parseColor("#B7AC8D")); //Set the color of the left cloud
+rainyView.setRightCloudColor(Color.parseColor("#9b8f84")); //Set the color of the right cloud
+rainyView.setRainDropColor(Color.parseColor("#9aa9bb")); //Set the color of the raindrop
+rainyView.setRainDropMaxNumber(50); //Set the max number of the raindrop
+rainyView.setRainDropMaxLength(50); //Set the max length of the raindrop
+rainyView.setRainDropMinLength(20); //Set the min length of the raindrop
+rainyView.setRainDropMaxSpeed(3); //Set the max speed of the raindrop
+rainyView.setRainDropMinSpeed(1); //Set the min speed of the raindrop
+rainyView.setRainDropSlope(-4); //Set the slope of the raindrop
+rainyView.setRainDropCreationInterval(10); //Set the creation interval of the raindrop
 
 rainyView.start(); //Start animation
 rainyView.stop(); //Stop animation
